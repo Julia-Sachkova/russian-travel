@@ -1,0 +1,26 @@
+.intro {
+    max-width: calc(100% - 296px);
+    margin: 92px auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 1152px) {
+    .intro {
+        max-width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .intro {
+        margin: 88px auto;
+        max-width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .intro {
+        margin: 64px auto;
+        max-width: calc(100% - 32px);
+    }
+}

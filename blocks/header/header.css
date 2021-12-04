@@ -1,7 +1,27 @@
 .header {
-    color: white;
-    padding-top: 28px;
+    max-width: calc(100% - 96px);
+    margin: 28px auto 56px;
     display: flex;
     position: relative;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1152px) {
+    .header {
+        margin: 28px auto 48px;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .header {
+        max-width: calc(100% - 48px);
+        margin: 28px auto 48px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .header {
+        max-width: calc(100% - 32px);
+        margin: 16px auto 48px;
+    }
 }
